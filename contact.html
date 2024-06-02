@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Contact form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="top">
+			<div class="top-logo">
+				<img src="img/logo.png" alt="logo"></img>
+			</div>
+			<div class="top-text">
+				<h1>Department of Computer Engineering</h1>
+				<h3>Government Polytechnic, Pune</h3>
+				<p>( An autonomous institute of Government of Maharashtra )</p>
+			</div>
+		</div>	
+	</div>
+	<div class="container-fluid">
+		<nav>
+			<div class="wrapper">
+				<div class="logo"><a href="#"></a></div>
+				<input type="radio" name="slider" id="menu-btn">
+				<input type="radio" name="slider" id="close-btn">
+				<ul class="nav-links" id="unordered-list">
+					<label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+					<li id="list2"><a href="index.html">Home</a></li>
+					<li id="list2"><a href="info.html">INFO</a></li>
+					<li id="list2">
+					<a href="#" class="desktop-item">CURRICULUM</a>
+					<input type="checkbox" id="showDrop">
+					<label for="showDrop" class="mobile-item">Dropdown Menu</label>
+						<ul class="drop-menu" id="unordered-list">
+							<li id="list2"><a href="#">180 OB CURRICULUM</a><li>
+							<li id="list2"><a href="#">180 S CURRICULUM</a></li>
+						</ul>
+					</li>
+					<li id="list2"><a href="admission.html">ADMISSION</a></li>
+					<li id="list2"><a href="#">Contact</a></li>
+				</ul>
+				<label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+			</div>
+		</nav>
+	</div>
+		
+		
+		
+		
+	<div class="container-fluid" id="main-content">
+		<!--contact section start-->
+		<div class="contact-section">
+			<div class="contact-info">
+				<div><i class="fas fa-map-marker-alt"></i>Government Polytechnic Pune
+						<p>Ganeshkhind, University Road, Shivajinagar,
+						Pune-411016, Maharashtra, India.</p></div>
+				<div><i class="fas fa-envelope"></i>Email : principal@gppune.ac.in</div>
+				<div><i class="fas fa-phone"></i>Phone No : 91-020-25559200</div>
+				<div><i class="fas fa-clock"></i>Mon-Fri 8:00 AM to 5:00PM</div>
+			</div>
+			<div class="contact-form">
+				<h2>Contact Us</h2>
+				<form class="contact" action="" method="post">
+					<input type="text" name="name" class="text-box" placeholder="Your Name" required>
+					<input type="email" name="email" class="text-box" placeholder="Your Email" required>
+					<textarea name="message" rows="5"placeholder="Your Message" required></textarea>
+					<input type="submit" name="submit" class="send-btn"  value="Send">
+				</form>
+			</div>
+			</div>
+		<!--contact section end-->
+	</div>
+	
+	<!--Footer Section-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Info</a></li>
+						<li><a href="#">Admission</a></li>
+						<li><a href="#">DTE</a></li>
+						<li><a href="#">Library Resources</a></li>
+						<li><a href="#">Exam Section</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Downloads</h4>
+					<ul>
+						<li><a href="services.html">Curriculum</a></li>
+						<li><a href="#">Academic Calenders</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Student Corner</h4>
+					<ul>
+						<li><a href="#">MIS Login</a></li>
+						<li><a href="#">TechnoFest 2k20</a></li>
+						<li><a href="#">Internal Hackathon</a></li>
+						<li><a href="#">Industrial Visits</a></li>
+						
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Address & Contact</h4>
+					<ul>
+						<li><a href="#">Government Polytechnic Pune
+						Ganeshkhind, University Road, Shivajinagar,
+						Pune-411016, Maharashtra, India.</a></li>
+						<li><a href="contact.html"><span class="glyphicon glyphicon-road"></span>Contact Us</a></li>
+						<li><a href="#">Phone No : 91-020-25559200</a></li>
+						<li><a href="#">FAX : 91-020-25559200</a></li>
+						<li><a href="#">Email : principal@gppune.ac.in</a></li>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60524.4882499198!2d73.831953!3d18.538818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11d0cebbb7eb6392!2sGovernment%20Polytechnic%2C%20Pune!5e0!3m2!1sen!2sus!4v1632290345620!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</footer> 
+	</body>
+</html>

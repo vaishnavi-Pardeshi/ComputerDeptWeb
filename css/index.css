@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+.top{
+    padding: 0%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;  
+}
+.top .top-logo{
+    
+    width: auto;
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.top .top-logo img{
+    vertical-align: top;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+.top .top-text{
+    padding-top: 10px;
+    padding-left: 2%;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;  
+}
+@media screen and (max-width: 680px)
+{
+    .top .top-logo img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .top .top-logo{
+        display: inline;
+    }
+    .top .top-text{
+        display: inline-block;
+    }
+    .top .top-text h1,h3{
+        font-size: 1rem;
+    } 
+}
+
+
+
+.dept-overview_wrapper{
+	margin:2rem;
+	padding:1rem;
+}
+@media screen and (max-width: 680px)
+{
+	.dept-overview_wrapper{
+		margin:0.2rem;
+		padding:0.5rem;
+	}
+}
+
+
+.dept-overview_wrapper .welcome-text{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    padding: 0.5em;
+    position: relative;
+
+}
+.dept-overview_wrapper .welcome-text h3{
+    text-align: center;
+}
+.dept-overview_wrapper .welcome-text span{
+    color: #00cccc;
+}
+
+@media screen and (max-width: 680px)
+{
+    .welcome-text h1{
+        font-size: 22px;
+    } 
+}
+
+/*Section 1 */
+.hod{
+	padding:25px;
+	align-items:center;
+	justify-content:center;
+}
+
+.hod-photo{
+    padding: 20px;
+    text-align: center;
+}
+
+.hod-photo img{
+    border-radius: 100%;
+	width:50%;
+	height:auto;
+}
+.hod-name{
+	text-align:center;
+	font-family: 'Inter', sans-serif;
+	
+}
+.hod-msg{
+	text-align:center;
+	padding:20px;
+}
+.hod-msg h3{
+	position: relative;
+}
+.hod-msg h3::before{
+	content: '';
+	position: absolute;
+	align-items:center;
+	bottom: -10px;
+	background-color:#00cccc;
+	height: 2px;
+	box-sizing: border-box;
+	width: 15%;
+}
+.hod-msg p{
+	text-align:justify;
+	padding:2rem;
+	font-family: 'Inter', sans-serif;
+}
+#read-btn{
+	background:#00cccc;
+	
+	border:none;
+}
+
+#read-btn a{
+	color:white;
+}
+
+/* section2*/
+.section2{
+	padding:1rem;
+	margin:0.5rem;
+}
+.vision-mission{
+	padding:0.2rem;
+	text-align:center;
+	margin-top:50px;
+	justify-content:center;	
+}
+.vision-mission span{
+	color:#00cccc;
+}
+.vision-mission h3{
+	font-size:3rem;
+	position:relative;
+}
+.vision-mission h3::before{
+	content: '';
+	position: absolute;
+	align-items:center;
+	bottom: -16px;
+	background-color:#00cccc;
+	height: 2px;
+	box-sizing: border-box;
+	width: 20%;
+	
+}
+
+@media screen and (max-width: 680px)
+{
+    .vision-mission h3{
+        font-size: 22px;
+    } 
+	.vision-mission h3::before{
+		width: 40%;
+		align-items:center;
+		left:30%;
+	}
+}
+/*section3 */
+.section3{
+	padding:2rem;
+	margin:0.5rem;
+}
+
+
+.vision {
+	padding:25px;
+	text-align:center;
+	justify-content:center;
+	font-family: 'Inter', sans-serif;
+		
+}
+
+.vision .vision-img{
+}
+.mission{
+	padding:25px;
+	font-family: 'Inter', sans-serif;
+	justify-content:center;
+	
+}
+.mission ul{
+	list-style: none;
+	
+}
+.dept-overview_wrapper ul li::before {
+	color:#00cccc;
+	content: "\2022";
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+.mission .mission-img{
+	text-align:center;
+}
+@media screen and (max-width: 680px)
+{
+	.section3{
+		padding:0;
+		margin:0;
+	}
+    .vision{
+        padding:5px;
+    } 
+	.mission{
+		padding:5px;
+	}
+}
+/*section4*/
+.section4{
+	padding:1rem;
+	margin:0.5rem;
+}
+.pro-outcomes{
+	
+	text-align:center;
+	margin-top:50px;
+	justify-content:center;	
+}
+
+.pro-outcomes span{
+	color:#00cccc;
+}
+.pro-outcomes h3{
+	font-size:3rem;
+	position:relative;
+}
+.pro-outcomes h3::before{
+	content: '';
+	position: absolute;
+	align-items:center;
+	bottom: -16px;
+	background-color:#00cccc;
+	height: 2px;
+	box-sizing: border-box;
+	width: 20%;
+}
+	
+@media screen and (max-width: 680px)
+{
+    .pro-outcomes h3{
+        font-size: 22px;
+    } 
+	.pro-outcomes h3::before{
+		width: 30%;
+	}
+}
+
+
+/*section5*/
+.po .title{
+	text-align:center;
+	padding:2rem;
+}
+.peo .title{
+	text-align:center;
+	padding:2rem;
+}
+.pso .title{
+	text-align:center;
+	padding:2rem;
+}
+	
+.po ul{
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+}
+.peo ul{
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+}
+.pso ul{
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+}
+.title .shimmer {
+  font-family:  'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding:1rem;
+  display: inline;
+  
+}
+.title .shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@media screen and (max-width: 680px)
+{
+	.section5{
+		font-size:15px;
+	}
+    .po .title h4{
+        font-size: 15px;
+    } 
+	.pso .title h4{
+		font-size: 15px;
+	}
+	.peo .title h4{
+		font-size: 15px;
+	}
+		
+}
+/*Admission Section*/
+.checkFloat{
+	width:100%;
+	height:1500px;
+	background-color:#D5EEED;
+	margin-top:20px;
+}
+.leftFloat{
+	width:25%;
+	height:300px;
+	background-color:white;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	padding:20px;
+}
+
+.rightFloat{
+	width:70%;
+	height:1400px;
+	background-color:white;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	padding:30px;	
+}

@@ -1,0 +1,232 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  }
+  body{
+	  background: linear-gradient(to right, #d6f5f5, white);
+  }
+  
+
+.top{
+    padding: 0%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;  
+}
+.top .top-logo{
+    
+    width: auto;
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.top .top-logo img{
+    vertical-align: top;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+.top .top-text{
+    padding-top: 10px;
+    padding-left: 2%;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;  
+}
+@media screen and (max-width: 680px)
+{
+    .top .top-logo img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .top .top-logo{
+        display: inline;
+    }
+    .top .top-text{
+        display: inline-block;
+    }
+    .top .top-text h1,h3{
+        font-size: 1rem;
+    } 
+}
+
+/* for container1*/
+
+
+#container1{
+	max-width:1500px;
+	height: 700px;
+	margin: 50px auto;
+	position: relative;
+	/*box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);*/
+	padding: 30px;
+	margin-top: 30px;
+	background-color: #fff;
+	
+	box-shadow: 0 0 10px #000;
+}
+@media(max-width: 768px){
+		#container1{
+			height: 1170px;
+		}
+}
+
+/*for main header line*/
+.header-line{
+	position: relative;
+	padding-bottom: 12px;	
+}
+.header-line:before{
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 2px;
+	background-color: #00cccc;
+	bottom: 0;
+	left: 49.1rem;	
+	padding-left: 15px;
+}
+@media(max-width: 768px){
+	.header-line:before{
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 2px;
+	background-color: #00cccc;
+	bottom: 0;
+	left: 2.5rem;	
+}
+.header-line{
+	font-size: 25px;
+}
+}
+/*shimmer effects headlines*/
+.shimmer {
+  font-family:  'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  padding:1.5rem;
+  display: inline;
+  
+}
+ .shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+/*curriculums buttons*/
+a.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #00cccc;
+margin:0 0.3em 0.3em 0;
+border-radius:0.20em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#00cccc;
+text-align:center;
+transition: all 0.2s;
+float: left;
+}
+@media(max-width: 768px){
+	a.button1{
+		float: left;
+	}
+}
+a.button1:hover{
+color:#ffffff;
+background-color:#000000;
+border:0.1em solid #000000;
+
+}
+@media all and (max-width:30em){
+a.button1{
+display:block;
+margin:0.4em auto;
+}
+}
+h3{
+	padding-bottom: 2rem;
+}
+
+#objective-listing{
+		list-style: none;
+	}
+#objective-listing2{
+		list-style: none;
+	}
+#objective-listing3{
+		list-style: none;
+	}
+@media(max-width: 768px){
+	#objective-listing{
+		margin-left: 1px;
+	}
+	#objective-listing2{
+		margin-left: -5rem;
+	}
+	#objective-listing3{
+		margin-left: -50em;
+	}
+}
